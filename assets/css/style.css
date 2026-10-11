@@ -4,3 +4,22 @@
 @media(max-width:950px){.nav-links{gap:15px}.hero-grid{gap:15px;grid-template-columns:1fr .75fr}.hero-art{min-height:320px}.grid-3{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:repeat(2,1fr)}.feature-band{grid-template-columns:1fr}.form-shell{grid-template-columns:1fr}}
 @media(max-width:760px){.container{width:min(var(--max),calc(100% - 32px))}.nav-wrap{height:70px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:70px;left:0;right:0;background:rgba(7,9,13,.98);border-bottom:1px solid var(--line);padding:18px 22px 24px;flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a{padding:12px 0}.nav-links a[aria-current=page]:after{display:none}.nav-cta{text-align:center;margin-top:10px}.hero{padding:65px 0 48px;min-height:0}.hero-grid{grid-template-columns:1fr}.hero-art{min-height:280px;max-width:440px;width:100%;margin:0 auto}.orb{width:270px}.orb-core span{font-size:58px}.orbit-label.one{left:0}.orbit-label.two{right:0}.section{padding:70px 0}.section-sm{padding:48px 0}.section-head{display:block}.section-head p{margin-top:14px}.grid-3,.grid-2{grid-template-columns:1fr}.card{min-height:0}.trust-inner{justify-content:flex-start}.stat-row{grid-template-columns:1fr}.page-hero{padding:62px 0 45px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.form-card,.contact-info{padding:22px}.cta-panel{align-items:flex-start;flex-direction:column}.footer-grid{grid-template-columns:1fr 1fr;gap:26px}.footer-brand{grid-column:1/-1}.footer-bottom{display:block}.footer-bottom span{display:block;margin-bottom:8px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+
+/* Neonaire brand identity + sector roadmap */
+.brand-logo{display:block;width:clamp(175px,18vw,220px);height:auto;max-height:48px;object-fit:contain;object-position:left center}
+.brand{display:flex;align-items:center;min-width:0}
+.sectors-section{background:linear-gradient(180deg,rgba(16,24,37,.32),rgba(7,9,13,0))}
+.sector-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.sector-card{display:block;min-height:205px;padding:21px 18px;border:1px solid var(--line);border-radius:19px;background:linear-gradient(145deg,rgba(18,25,37,.92),rgba(9,13,20,.92));transition:transform .22s,border-color .22s,background .22s}
+.sector-card:hover{transform:translateY(-4px);border-color:rgba(87,168,255,.48);background:linear-gradient(145deg,rgba(22,34,51,.98),rgba(9,13,20,.98))}
+.sector-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;margin-bottom:17px;color:#d8f0ff;font-size:25px;font-weight:700;background:linear-gradient(145deg,#187df4,#0b2c60);border:1px solid rgba(114,190,255,.38);box-shadow:0 8px 26px rgba(22,119,238,.15)}
+.sector-icon.violet{background:linear-gradient(145deg,#785cff,#38206f)}
+.sector-icon.amber{background:linear-gradient(145deg,#ffad4c,#7d3b10)}
+.sector-icon.rose{background:linear-gradient(145deg,#ff647f,#7b1f42)}
+.sector-icon.gold{background:linear-gradient(145deg,#e9c96b,#72531c)}
+.sector-icon.teal{background:linear-gradient(145deg,#13b6c4,#07545c)}
+.sector-icon.green{background:linear-gradient(145deg,#39bb7c,#145638)}
+.sector-card h3{font-size:16px;margin:0 0 8px;line-height:1.35}
+.sector-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.6}
+@media(max-width:1000px){.sector-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.brand-logo{width:168px;max-height:40px}.sector-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sector-card{padding:16px 13px;min-height:190px}.sector-card h3{font-size:14px}.sector-card p{font-size:11px}}

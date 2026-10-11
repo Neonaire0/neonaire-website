@@ -32,3 +32,10 @@ Open `index.html` in a browser, or use a local static server (for example, VS Co
 
 ## Current scope
 This build is a static corporate website. It does not include a CMS/admin panel, database, user accounts, payment processing, newsletter storage, or server-side contact form. Those require separately chosen and secured services.
+
+
+## Branding update (v2)
+- Added a custom scalable Neonaire SVG wordmark and updated browser favicon.
+- Added a 10-card sector roadmap with individual color-coded icons.
+- Sector descriptions are explicitly framed as planned areas of exploration, not claims that all sectors are active.
+- The contact form still uses the existing client-side email flow; a backend is required to store submissions.
